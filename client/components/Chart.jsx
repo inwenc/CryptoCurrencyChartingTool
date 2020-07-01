@@ -3,15 +3,14 @@ import React from 'react';
 
 
 var Chart = (props) => {
-// console.log('props data labels', props.data[labels])
-// console.log('props data', props.data[datasets])
+
   return (
     <div className="chart">
       <Line
       data={
       props.data}
-       options ={
-{}
+       options = {
+        {}
       }/>
     </div>
   )
