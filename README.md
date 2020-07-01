@@ -1,5 +1,7 @@
 # Project: Crytocurrency Charting Tool
 
+![Alt Text](https://media.giphy.com/media/SvcITxjv56u4bzjlKU/giphy.gif)
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Usage](#Usage)
