@@ -29,12 +29,10 @@ class App extends React.Component {
   getInitialData (startDate, endDate) {
     var options;
     if (startDate && endDate ) {
-      console.log('3535')
-    var options = {
-      startDate: startDate,
-      endDate: endDate
-    }
-    console.log('options', options)
+      var options = {
+        startDate: startDate,
+        endDate: endDate
+      }
   } else {
     options = {};
   }
@@ -44,9 +42,8 @@ class App extends React.Component {
       data: options,
       success: (data) => {
        console.log('get success')
-        data =JSON.parse(data);
-        var newData = this.formatData(data)
-        console.log('newData', newData)
+        data = JSON.parse(data);
+        var newData = this.formatData(data);
         this.setState({
           chartData: newData,
           toggleChart: true
@@ -67,10 +64,9 @@ class App extends React.Component {
     })
   }
   onHandleSubmit () {
-     console.log('clicked submit')
      var startDate = this.state.startDate;
      var endDate = this.state.endDate;
-     this.getInitialData(startDate, endDate)
+     this.getInitialData(startDate, endDate);
   }
   formatData (obj) {
     var newObj = {
