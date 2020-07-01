@@ -7,7 +7,7 @@
 1. [Copyright and License](#Copyright-and-License)
 
 ## Overview
-Cryptocurrency Charting tool is an application that displays Bitcoin's pricing in USD according to input dates. It integrates Coin Desk API for pricing data.
+Cryptocurrency Charting tool is an application that displays Bitcoin's pricing in USD according to dates input. It integrates Coin Desk API for pricing data.
 
 
 
