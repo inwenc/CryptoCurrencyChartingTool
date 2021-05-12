@@ -10,7 +10,7 @@
   "author": "Ying",
   "license": "MIT",
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "css-loader": "^3.5.3",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
